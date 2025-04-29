@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual HTML Editor - Ngerank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Visual HTML Editor</h1>
+        <div id="editor" contenteditable="true" class="editor"></div>
+        <textarea id="htmlView" class="editor" style="display:none;"></textarea>
+
+        <div class="buttons">
+            <button onclick="toggleView()">Switch View</button>
+            <button onclick="copyHTML()">Copy HTML</button>
+        </div>
+    </div>
+
+    <footer style="text-align:center; margin-top:2rem; font-size:0.9rem;">
+        Built by <a href="https://ngerank.id" target="_blank" style="color:#FFD166; text-decoration:none;">Ngerank</a> — Built to Rank.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
